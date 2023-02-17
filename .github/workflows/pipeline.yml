@@ -13,8 +13,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      # - name: Install dependencies
-      #   run: npm install --no-audit --no-fund --no-optional
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund --no-optional
 
       # - name: Test unit
       #   run: npm test
